@@ -1,3 +1,3 @@
 # rafael.me
 
-#Personal Resume & Tech blog **HUGO** codebase#
+# Personal Resume & Tech blog **HUGO** codebase
