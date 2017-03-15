@@ -1,0 +1,263 @@
+# Page settings
+
+baseurl = "http://www.rafael.me/"
+languageCode = "en-us"
+title = "Rafael Panazzo Roizman Resume"
+theme = "hugo-orbit-theme"
+googleAnalytics = "UA-34520358-1"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Rafael Panazzo Roizman's Resume / CV"
+    author = "Rafael Panazzo Roizman"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Rafael Panazzo Roizman"
+        tagline = "Innovation Coordinator | Software & Cloud"
+        avatar = "profile.png"
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-newspaper-o"
+        url = "/blog"
+        title = "Visit the tech blog"
+        
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-cloud-download"
+        url = "/assets/images/resume.pdf"
+        title = "Download resume copy"
+        
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: rafaelpanazzo@gmail.com"
+        title = "rafaelpanazzo@gmail.com"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "#"
+        title = "+55 11 985 857 749"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "www.rafael.me"
+        title = "www.rafael.me"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "https://www.linkedin.com/in/rafaelpanazzo/"
+        title = "linkedin.com/in/rafaelpanazzo"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "//github.com/panazzo"
+        title = "github.com/panazzo"
+
+        [[params.contact.list]]
+        class = "twitter"
+        icon = "fa-twitter"
+        url = "//twitter.com/panazzo"
+        title = "@panazzo"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "MBA Degree in Software Engineering"
+        college = "FIAP University"
+        dates = "2010 - 2012"
+
+        [[params.education.list]]
+        degree = "College Degree in Software Development"
+        college = "FIAP University"
+        dates = "2008 - 2009"
+
+        [[params.education.list]]
+        degree = "Technical High School in Data Processing"
+        college = "COPI"
+        dates = "2005 - 2007"
+
+    # Languages section
+    [params.languages]
+        enable = true
+        title = "Languages"
+
+        [[params.languages.list]]
+        language = "Portuguese"
+        level = "Native"
+
+        [[params.languages.list]]
+        language = "English"
+        level = "Professional"
+
+        [[params.languages.list]]
+        language = "Spanish"
+        level = "Intermediate"
+
+        [[params.languages.list]]
+        language = "French"
+        level = "Basic"
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Agile"
+
+        [[params.interests.list]]
+        interest = "Lean"
+
+        [[params.interests.list]]
+        interest = "Kanban"
+
+        [[params.interests.list]]
+        interest = "C#"
+
+        [[params.interests.list]]
+        interest = "Ruby"
+
+        [[params.interests.list]]
+        interest = "Python"
+
+        [[params.interests.list]]
+        interest = "AWS"
+
+        [[params.interests.list]]
+        interest = "Azure"
+
+        [[params.interests.list]]
+        interest = "Openstack"
+
+        [[params.interests.list]]
+        interest = "DevOps"
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "My name is **Rafael Panazzo Roizman** and I’m passionate about technology! I’ve been studying and working in information technology projects for over the past **10 years**. Over the past decade, after under graduating in **software development** and graduating in **software engineering**, I’ve worked in several technology fields. At my current position, at **TOTVS**, I’m **coordinating** a large software development team in innovation projects related to **Public and Private Cloud automation, management and orchestration**. Other examples of past experiences are **e-commerces and CRMs development** at J System and Dualtec Systems, a **financial market management system** for Bank of Brazil at Spread, **Cloud Computing, DevOps and Innovation Management** projects at Dualtec Cloud Builders as well as a **real time ATM monitoring system** and **ALM/DevOps** evangelism at Santander. I’ve also been involved in the academic field, working as **assistant professor** at FIAP University, helping head tech teachers during classes and replacing them when needed. I’m also interested in **innovation and agile** product management, having studied both fields at **USP University** during an extension course."
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Innovation Coordinator - Software & Cloud"
+        dates = "06/2015 - Present"
+        company = "TOTVS Cloud"
+        details = "Software development team coordination (20 people on site and 30 remote); <br> Multi-Cloud architecture elaboration; <br> Agile product management & evangelism"
+
+        [[params.jobs.list]]
+        position = "Senior Software Engineer"
+        dates = "10/2014 - 06/2015"
+        company = "SANTANDER Bank"
+        details = "Real-time ATM monitoring software development and architecture; <br> Agile & DevOps evangelism"
+
+        [[params.jobs.list]]
+        position = "Innovation Coordinator - Software & Cloud"
+        dates = "02/2011 - 10/2014"
+        company = "DUALTEC Cloud Builders (UOL Group)"
+        details = "Software development team coordination (10 people); <br> Private cloud w/ Openstack project management; <br> Private cloud w/ Azure Pack project management; <br> Innovation Management"
+
+        [[params.jobs.list]]
+        position = "Other Work Experiences"
+        details = "**Assistant professor** | FIAP University (Part. Time) (2014 - 2015); <br> **Software Engineer** | Bank of Brazil (2010 - 2011); <br> **Software Engineer** | Dualtec Systems (2008 - 2010); <br> **Software Developer** | J Systems (2007 - 2008)"
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-certificate"
+        title = "Certificates"
+
+        [[params.projects.list]]
+        title = "AWS Certified Solutions Architect"
+        tagline = "jan/2017"
+
+        [[params.projects.list]]
+        title = "Professional Scrum Master"
+        tagline = "jan/2017"
+
+        [[params.projects.list]]
+        title = "SAFe Product Manager/Product Owner"
+        tagline = "dec/2016"
+
+        [[params.projects.list]]
+        title = "SAFe Agilist"
+        tagline = "jun/2016"
+
+        [[params.projects.list]]
+        title = ".NET Fundamentals"
+        tagline = "aug/2014"
+
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Software Development"
+        level = "88%"
+                
+        [[params.skills.list]]
+        skill = "Cloud Architecture"
+        level = "78%"
+
+        [[params.skills.list]]
+        skill = "Product & Agile Management"
+        level = "78%"
+
+        [[params.skills.list]]
+        skill = "Innovation Management"
+        level = "68%"
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = ""
