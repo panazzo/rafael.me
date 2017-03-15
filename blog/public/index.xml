@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Rafael Panazzo Roizman&#39;s Tech Blog</title>
     <link>http://www.rafael.me/blog/index.xml</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Rafael Panazzo Roizman&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Mar 2017 14:14:12 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 15 Mar 2017 17:08:23 -0300</lastBuildDate>
     <atom:link href="http://www.rafael.me/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>hello</title>
-      <link>http://www.rafael.me/blog/post/hello/</link>
-      <pubDate>Wed, 15 Mar 2017 14:14:12 -0300</pubDate>
+      <title>Under Construction</title>
+      <link>http://www.rafael.me/blog/post/under-construction/</link>
+      <pubDate>Wed, 15 Mar 2017 17:08:23 -0300</pubDate>
       
-      <guid>http://www.rafael.me/blog/post/hello/</guid>
-      <description>&lt;p&gt;Hello blog&lt;/p&gt;
+      <guid>http://www.rafael.me/blog/post/under-construction/</guid>
+      <description>&lt;p&gt;Come back soon ;) By now, visit my personal resume at &lt;a href=&#34;http://www.rafael.me&#34;&gt;http://www.rafael.me&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

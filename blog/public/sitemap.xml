@@ -2,19 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.rafael.me/blog/post/hello/</loc>
-    <lastmod>2017-03-15T14:14:12-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.rafael.me/blog/</loc>
-    <lastmod>2017-03-15T14:14:12-03:00</lastmod>
-    <priority>0</priority>
+    <loc>http://www.rafael.me/blog/post/under-construction/</loc>
+    <lastmod>2017-03-15T17:08:23-03:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.rafael.me/blog/post/</loc>
-    <lastmod>2017-03-15T14:14:12-03:00</lastmod>
+    <lastmod>2017-03-15T17:08:23-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.rafael.me/blog/</loc>
+    <lastmod>2017-03-15T17:08:23-03:00</lastmod>
     <priority>0</priority>
   </url>
   
